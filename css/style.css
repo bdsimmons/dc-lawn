@@ -5774,6 +5774,7 @@ body.fullwidth .breadcrumbs .container:after {
 .navbar .phone .phone-number {
   font-size: 26px;
   padding: 0 7px;
+  /*color: white;*/
 }
 .navbar .phone .phone-sm {
   font-size: 11px;
@@ -5816,6 +5817,7 @@ body.fullwidth .breadcrumbs .container:after {
     font-size: 20px;
     line-height: 35px;
     padding: 0 5px;
+    color: white;
   }
 }
 .header--max .navbar.navbar-wd {
