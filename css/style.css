@@ -5989,6 +5989,7 @@ The Bootstrap CSS is unchanged.
 .footer__bottom .phone .phone-number {
   font-size: 26px;
   padding: 0 14px;
+  color: white;
 }
 .footer__bottom .phone .phone-sm {
   font-size: 11px;
