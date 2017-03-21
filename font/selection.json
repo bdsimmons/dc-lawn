@@ -333,7 +333,7 @@
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "lawn-mowet"
+          "lawn-mower"
         ],
         "grid": 0
       },
@@ -343,7 +343,8 @@
       "properties": {
         "order": 6,
         "id": 4,
-        "name": "lawn-mowet",
+        "name": "lawn-mower
+        ",
         "prevSize": 32,
         "code": 59652
       },
