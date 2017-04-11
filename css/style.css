@@ -10304,6 +10304,12 @@ body.fullwidth .breadcrumbs .container > .navbar-collapse {
   }
 }
 
+@media (min-width: 767px) {
+  .phone-number a {
+    color: #fff;
+  }
+}
+
 .services-font-size {
   font-size: 40px;
 }
