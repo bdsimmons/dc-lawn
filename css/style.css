@@ -5813,7 +5813,7 @@ body.fullwidth .breadcrumbs .container:after {
     padding: 0 100px 0 15px;
     color: #fff;
   }
-  .navbar .phone .phone-number {
+  .navbar .phone .phone-number, .navbar .phone .phone-number a {
     font-size: 20px;
     line-height: 35px;
     padding: 0 5px;
@@ -10304,7 +10304,7 @@ body.fullwidth .breadcrumbs .container > .navbar-collapse {
   }
 }
 
-@media (min-width: 767px) {
+@media only screen (max-width: 767px) {
   .phone-number a {
     color: #fff;
   }
