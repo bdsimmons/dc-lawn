@@ -4,9 +4,9 @@
 <head>
 	<!-- Basic -->
 	<meta charset="utf-8">
-	<title>Contact | DC Lawn</title>
-	<meta name="keywords" content="Lawn Care | Mobile and Baldwin County" />
-	<meta name="description" content="Contact DC Lawn services | Lawn Care | Mobile and Baldwin County">
+	<title>Lawn Maintenance | DC Lawn | Lawn Care Mobile and Baldwin County</title>
+	<meta name="keywords" content="HTML5 Template" />
+	<meta name="description" content="Lawn Maintenance by DC Lawn, lawncare in Baldwin County, Alabama.">
 	<meta name="author" content="tonytemplates.com">
 	<link rel="shortcut icon" href="images/favicon.png">
 	<!-- Mobile Specific Metas -->
@@ -35,154 +35,6 @@
         <![endif]-->
 	<!-- Modernizr -->
 	<script src="vendor/modernizr/modernizr.js"></script>
-	<!-- Google map -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0CN8AokE_d0RGgPWt0yVyZadp46tESLI&sensor=false"></script>
-	<script type="text/javascript">
-		// When the window has finished loading create our google map below
-		google.maps.event.addDomListener(window, 'load', init);
-
-		function init() {
-			// Basic options for a simple Google Map
-			// For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-			var mapOptions = {
-				// How zoomed in you want the map to start at (always required)
-				zoom: 14
-				, scrollwheel: false
-				, // The latitude and longitude to center the map (always required)
-				center: new google.maps.LatLng(30.516376, -87.883197), // Glasgow
-				// How you would like to style the map. 
-				// This is where you would paste any style found on Snazzy Maps.
-				styles: [{
-					"featureType": "water"
-					, "elementType": "geometry"
-					, "stylers": [{
-						"color": "#e9e9e9"
-					}, {
-						"lightness": 17
-					}]
-				}, {
-					"featureType": "landscape"
-					, "elementType": "geometry"
-					, "stylers": [{
-						"color": "#f5f5f5"
-					}, {
-						"lightness": 20
-					}]
-				}, {
-					"featureType": "road.highway"
-					, "elementType": "geometry.fill"
-					, "stylers": [{
-						"color": "#ffffff"
-					}, {
-						"lightness": 17
-					}]
-				}, {
-					"featureType": "road.highway"
-					, "elementType": "geometry.stroke"
-					, "stylers": [{
-						"color": "#ffffff"
-					}, {
-						"lightness": 29
-					}, {
-						"weight": 0.2
-					}]
-				}, {
-					"featureType": "road.arterial"
-					, "elementType": "geometry"
-					, "stylers": [{
-						"color": "#ffffff"
-					}, {
-						"lightness": 18
-					}]
-				}, {
-					"featureType": "road.local"
-					, "elementType": "geometry"
-					, "stylers": [{
-						"color": "#ffffff"
-					}, {
-						"lightness": 16
-					}]
-				}, {
-					"featureType": "poi"
-					, "elementType": "geometry"
-					, "stylers": [{
-						"color": "#f5f5f5"
-					}, {
-						"lightness": 21
-					}]
-				}, {
-					"featureType": "poi.park"
-					, "elementType": "geometry"
-					, "stylers": [{
-						"color": "#dedede"
-					}, {
-						"lightness": 21
-					}]
-				}, {
-					"elementType": "labels.text.stroke"
-					, "stylers": [{
-						"visibility": "on"
-					}, {
-						"color": "#ffffff"
-					}, {
-						"lightness": 16
-					}]
-				}, {
-					"elementType": "labels.text.fill"
-					, "stylers": [{
-						"saturation": 36
-					}, {
-						"color": "#333333"
-					}, {
-						"lightness": 40
-					}]
-				}, {
-					"elementType": "labels.icon"
-					, "stylers": [{
-						"visibility": "off"
-					}]
-				}, {
-					"featureType": "transit"
-					, "elementType": "geometry"
-					, "stylers": [{
-						"color": "#f2f2f2"
-					}, {
-						"lightness": 19
-					}]
-				}, {
-					"featureType": "administrative"
-					, "elementType": "geometry.fill"
-					, "stylers": [{
-						"color": "#fefefe"
-					}, {
-						"lightness": 20
-					}]
-				}, {
-					"featureType": "administrative"
-					, "elementType": "geometry.stroke"
-					, "stylers": [{
-						"color": "#fefefe"
-					}, {
-						"lightness": 17
-					}, {
-						"weight": 1.2
-					}]
-				}]
-			};
-			// Get the HTML DOM element that will contain your map 
-			// We are using a div with id="map" seen below in the <body>
-			var mapElement = document.getElementById('map');
-			// Create the Google Map using our element and options defined above
-			var map = new google.maps.Map(mapElement, mapOptions);
-			var image = 'images/map-marker.png';
-			// Let's also add a marker while we're at it
-			var marker = new google.maps.Marker({
-				position: new google.maps.LatLng(30.516376, -87.883197)
-				, map: map
-				, icon: image
-			});
-		}
-	</script>
 </head>
 
 <body>
@@ -192,7 +44,7 @@
 		</div>
 	</div>
 	<!-- Modal Search -->
-<!--	<div class="overlay overlay-scale">
+	<div class="overlay overlay-scale">
 		<button type="button" class="overlay-close"> ✕ </button>
 		<div class="overlay__content">
 			<form id="search-form" class="search-form outer" action="#" method="post">
@@ -201,7 +53,7 @@
 				<button class="btn btn--wd text-uppercase wave waves-effect">Search</button>
 			</form>
 		</div>
-	</div> -->
+	</div>
 	<!-- / end Modal Search -->
 	<div class="wrapper">
 		<!-- Header section -->
@@ -271,84 +123,45 @@
 				<div class="container">
 					<ol class="breadcrumb breadcrumb--wd pull-left">
 						<li><a href="index.html">Home</a></li>
-						<li class="active">Contact</li>
+						<li><a href="services.html">Services</a></li>
+						<li class="active">Lawn Maintenance</li>
 					</ol>
 				</div>
 			</section>
 			<!-- Content section -->
-			<section class="content content--fill content--fill--light top-null bottom-null fullwidth">
-				<h2 class="text-center lined">Contact Us</h2>
-				<div id="map"></div>
-			</section>
 			<section class="content content--fill content--fill--light top-null">
 				<div class="container">
+					<h1 class="text-center lined">Lawn Maintenance <a href="services.html" class="back-link">« Back to Services</a></h1>
 					<div class="row">
-						<div class="col-sm-1 visible-lg"></div>
-						<div class="col-sm-3">
-							<div class="address">
-								<div class="pull-right"><img src="images/logo.png" class="img-responsive" alt="" /></div>
-								<div class="divider divider--sm"></div>
-								<div class="text-right">
-									<h6>Our address:</h6>
-									<br> 8178 Nichols Avenue Ext
-									<br> Fairhope, AL 36532</div>
-								<div class="divider divider--sm"></div>
-								<div class="text-right">
-									<h6>Call us:</h6> (251) 599-2401 </div>
-								<div class="divider divider--sm"></div>
-								<div class="text-right">
-									<h6>Have any questions?</h6> <a href="mailto:dclawn@bellsouth.net">dclawn@bellsouth.net</a>
-                                </div>
-								<div class="divider divider--md"></div>
-								<div class="social-links lg">
-									<ul>
-										<li>
-											<a class="icon icon-twitter-logo-button" href="https://twitter.com/DC_Lawncare"></a>
-										</li>
-										<li>
-											<a class="icon icon-facebook-logo-button" href="https://www.facebook.com/DC-LawnLLc-441412402598499/"></a>
-										</li>
-										
-									</ul>
-								
-								</div>
-							</div>
+						<div class="col-sm-4 text-center"> <img src="images/lawnmaintenance.PNG" alt="" class="img-responsive img-round img-center"> </div>
+						<div class="divider divider--sm visible-xs"></div>
+						<div class="col-sm-8">
+							<p>We offer weekly and bi-weekly landscape maintenance for Mobile and Baldwin County residents. Our dedicated employees are trained to beautify your lawn in a reliable and affordable manner. A professionally groomed lawn offers multiple benefits - both aesthetic and practical. Not only does lawn care beautify your neighborhood and create feelings of tranquility and privacy, but a healthy lawn will also prevent erosion by trapping/absorbing rainfall and purifying it before it enters the water table. The benefits can also be economical. Proper landscaping and lawn care can positively impact your wallet! The recovery rate of landscape improvements can be well over 100% and well-maintained landscaping can add up to 15% to your home's resale value. </p>
+                            <p>DC Lawn is a full-service lawn and landscape company. We're equipped to implement solutions for all your lawn care and landscape needs. Please feel free to contact us for any specific landscaping needs you might have. Call (251) 599-2401 for fast, friendly service or to email us for a free quote. </p>
 						</div>
-						<div class="col-sm-1 visible-lg"></div>
-						<div class="col-sm-7">
-							<form action="https://formspree.io/dclawn@bellsouth.net" method="POST">
-								<div id="success">
-									<p>Your message was sent successfully!</p>
-								</div>
-								<div id="error">
-									<p>Something went wrong, try refreshing and submitting the form again.</p>
-								</div>
-								<div class="inputs-col">
-									<div class="input-wrapper">
-										<label>Name <span class="required">*</span></label>
-										<input type="text" class="input--wd input--full" name="name" placeholder="Your name"> </div>
-									<div class="input-wrapper">
-										<label>Phone</label>
-										<input type="text" class="input--wd input--full" name="phone" placeholder="(555) 555-5555"> </div>
-									<div class="input-wrapper">
-										<label>Email</label>
-										<input type="text" class="input--wd input--full" name="email" placeholder="xxxx@xxxx.xxx"> </div>
-								</div>
-								<div>
-									<label>Message</label>
-									<textarea class="textarea--wd input--full" name="message"></textarea>
-								</div>
-								<div class="divider divider--xs"></div>
-								<button type="submit" id="submit" class="btn btn--wd">Send Message</button>
-							</form>
-						</div>
+					</div>
+                    <br>
+                    <div class="row">
+                         <h3>Along with regular lawn maintenance, we offer:</h3>
+                        <ul>
+                            <li>Landscape Design</li>
+                            <li>Hardscaping</li>
+                            <li>Irrigation install and repairs</li>
+                            <li>Outdoor lighting</li>
+                            <li>Retaining walls</li>
+                            <li>Drainage systems</li>
+                        </ul>
+                    </div>
+					<div class="divider divider--lg"></div>
+					<div class="row">
+						
 					</div>
 				</div>
 			</section>
-	<!--		<div class="page-bot"><img src="images/under-footer.png" class="img-responsive" alt=""></div> -->
+		
 			<!-- End Content section -->
 		</div>
-		<footer class="footer">
+<footer class="footer">
 		<!--	<div class="footer__top">
 				<div class="container">
 					<form id="estimate-form" class="estimate-form" action="#" method="post">
