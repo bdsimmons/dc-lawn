@@ -884,4 +884,11 @@ $(document).ready(function () {
 		}
 		prevW = window.innerWidth || $(window).width();
 	}));
+    
+
+    
+    
 })
+
+
+
