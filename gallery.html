@@ -114,7 +114,7 @@
 								
 								</ul>
 							</li>
-                            <li><a href="gallery.html#nanogallery/nanoGallery1/72157679323912841"><span class="link-name">Gallery</span></a></li>
+                            <li><a href="gallery.html"><span class="link-name">Gallery</span></a></li>
 							<li><a href="contact.html"><span class="link-name">Contact</span></a></li>
 						</ul>
 					</div>
@@ -133,15 +133,14 @@
 				</div>
 			</section>
 			<!-- Content section -->
-			<section class="content content--fill content--fill--light fullwidth top-null">
+            <section class="content">
 				<div class="container">
-					<h1 class="text-center lined">Gallery</h1>
-				
-                
-                      <div id="nanoGallery1">
-                      </div>
-                    
-                </div>   
+					<h2 class="text-center lined">Our Gallery</h2>
+					<div class="container">
+						<div id="nanoGallery1"></div>
+
+					</div>
+				</div>
 			</section>
 			
 	
@@ -243,7 +242,9 @@
 					</div>
 				</div>
 			</div>
+            
 		</footer>
+        </div>
 	</div>
 	<!-- Vendor -->
 	<!-- jQuery 1.10.1-->
@@ -272,18 +273,25 @@
     <script>
       $(document).ready(function () {
       $("#nanoGallery1").nanoGallery({
-		thumbnailWidth: 'auto',
-		thumbnailHeight: 250,
-		kind: 'flickr',
-		userID: '148634111@N07',
-		albumList: 'DC-Lawn',
-		colorScheme: 'none',
-		thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
-		i18n: { thumbnailImageDescription: 'View Photo', thumbnailAlbumDescription: 'Open Album' },
-		thumbnailLabel: { display: true, position: 'overImageOnMiddle', align: 'center' }
+
+      kind: 'flickr',
+      
+      userID: '148634111@N07',
+      album: 'DC-Lawn',
+      thumbnailWidth: 'auto',
+      thumbnailHeight: 250,
+      colorScheme: 'none',
+      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
+    
+      thumbnailGutterWidth : 0,
+      thumbnailGutterHeight : 0,
+      i18n: { thumbnailImageDescription: 'View Photo', thumbnailAlbumDescription: 'Open Album' },
+      thumbnailLabel: { display: true, position: 'overImageOnMiddle', align: 'center' }
+
       });
   		});
    </script>
+
 </body>
 
 </html>
