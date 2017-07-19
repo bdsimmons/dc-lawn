@@ -25,6 +25,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
 	<link rel="stylesheet" type="text/css" href="vendor/rs-plugin/css/settings.css" media="screen" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/css/nanogallery.min.css" rel="stylesheet" type="text/css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/css/themes/light/nanogallery_light.min.css">
 	<!-- Head Libs -->
 	<!--[if IE]>
         <link rel="stylesheet" href="css/ie.css">
@@ -275,29 +277,21 @@
 	<script src="js/custom.js"></script>
     <!-- nanogallery2 -->
    
-    <link href="nanoGALLERY/dist/css/nanogallery.min.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="nanoGALLERY/jquery.nanogallery.js"></script>
-    <script>
-      $(document).ready(function () {
-      $("#nanoGallery1").nanoGallery({
-
-      kind: 'flickr',
-      
-      userID: '148634111@N07',
-      album: 'DC-Lawn',
-      thumbnailWidth: 'auto',
-      thumbnailHeight: 250,
-      colorScheme: 'none',
-      thumbnailHoverEffect: [{ name: 'labelAppear75', duration: 300 }],
-    
-      thumbnailGutterWidth : 0,
-      thumbnailGutterHeight : 0,
-      i18n: { thumbnailImageDescription: 'View Photo', thumbnailAlbumDescription: 'Open Album' },
-      thumbnailLabel: { display: true, position: 'overImageOnMiddle', align: 'center' }
-
-      });
-  		});
-   </script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery/5.10.3/jquery.nanogallery.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#nanoGallery1").nanoGallery({
+				userID: '148634111@N07',
+				kind: 'flickr',
+				photoset: 'none',
+				thumbnailWidth: 'auto',
+				thumbnailHeight: 250,
+				theme: 'light',
+				thumbnailLabel: { display:false},
+				thumbnailLazyLoad: true
+			});
+		});
+	</script>
 
 </body>
 

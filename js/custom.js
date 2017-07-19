@@ -894,10 +894,12 @@ var currentSlide = 0;
 var slideInterval = setInterval(nextSlide,6300);
 
 function nextSlide() {
-    slides[currentSlide].className = 'slide';
-    currentSlide = (currentSlide+1)%slides.length;
-    slides[currentSlide].className = 'slide showing';
-} nextSlide();
+	if (slides && slides[currentSlide]) {
+		slides[currentSlide].className = 'slide';
+    	currentSlide = (currentSlide+1)%slides.length;
+    	slides[currentSlide].className = 'slide showing';
+	}
+};
 
 
 
